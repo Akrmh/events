@@ -1,0 +1,30 @@
+body{
+    background-color: #ccc;
+}
+h1{
+    text-align: center;
+}
+
+section{
+    width: 50%;
+    display: flex;
+    background-color: rgb(156, 175, 175);
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+section input{
+    outline: none;
+    border: 2px solid #eed2d2;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+section button{
+    margin-top:10px ;
+    background-color: rgb(1, 1, 53);
+    border: 5px;
+    border-radius: 5px;
+    color: white;
+}
