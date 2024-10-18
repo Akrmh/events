@@ -6,23 +6,33 @@ h1{
 }
 
 section{
-    width: 50%;
+    font-size: 1.5em;
+    width: 30%;
+    height: 20em;
     display: flex;
-    background-color: rgb(156, 175, 175);
+    background-color: white;
     flex-direction: column;
     margin: auto;
     padding: 10px;
     border-radius: 10px;
 }
 section input{
+    margin: 1em auto;
+    width: 80%;
+    height: 80px;
     outline: none;
     border: 2px solid #eed2d2;
     border-radius: 5px;
     padding: 5px 10px;
 }
+section label{
+    margin-left:8%;
+}
 
 section button{
-    margin-top:10px ;
+    margin: 1em auto 1em;
+    height: 3em;
+    width: 10em;
     background-color: rgb(1, 1, 53);
     border: 5px;
     border-radius: 5px;
