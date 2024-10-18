@@ -3,36 +3,37 @@ body{
 }
 h1{
     text-align: center;
+    margin-top: 1%;
 }
 
 section{
-    font-size: 1.5em;
+    font-size: 100%;
     width: 30%;
-    height: 20em;
+    height: 70vh;
     display: flex;
     background-color: white;
     flex-direction: column;
-    margin: auto;
-    padding: 10px;
+    margin:5% auto;
+    padding: 2%;
     border-radius: 10px;
 }
 section input{
     margin: 1em auto;
     width: 80%;
-    height: 80px;
+    height: 20%;
     outline: none;
     border: 2px solid #eed2d2;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 2% 10%;
 }
 section label{
-    margin-left:8%;
+    margin-left:1%;
 }
 
 section button{
-    margin: 1em auto 1em;
-    height: 3em;
-    width: 10em;
+    margin: 1% auto .5%;
+    height: 15%;
+    width: 30%;
     background-color: rgb(1, 1, 53);
     border: 5px;
     border-radius: 5px;
